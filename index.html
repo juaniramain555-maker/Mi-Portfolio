@@ -10,47 +10,88 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Juan Portfolio</title>
+    <title>Juan Portfolio - Desarrollador Web</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"> Juan Desarrollador Web </a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#menu"
+            aria-controls="menu"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="Abrir menú"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" href="#">Inicio</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de mí</a>
+                <a class="nav-link" href="#sobre-mi">Acerca de mí</a>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Proyectos</a>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
-</nav>
+      </nav>
     </header>
     <main>
-      <p class="fw-bold text-danger ">Bienvenido!!</p>
-      <h1 class="fw-bold text-white">Soy Juan,</h1>
-      <h2 class="fw-bold text-info">Desarrollador Web</h2>
+      <div class="hero">
+        <h1 class="fw-bolder text-danger display-1">Bienvenido!!!</h1>
+        <h2 class="fw-bold text-white display-4 mt-3">Soy Juan,</h2>
+        <h3 class="fw-bold text-info display-4">Desarrollador Web</h3>
+        <a href="#sobre-mi"class="btn btn-outline-success fs-3 bg-success text-light">
+          Acerca de mí
+        </a>
+      </div>
+      <section id="sobre-mi" class="container my-5 fw-bold text-white fs-4 ">
+        <div class="row align-items-center">
+        <div class="col-lg-5">
+           <h4>Sobre mí</h4>
+           <p>¿Quién soy?</p>
+           <p> ¡Hola! Soy Juan, estudiante de desarrollo web y
+          apasionado por la creación de experiencias digitales. Disfruto diseñar
+          y desarrollar sitios web modernos, responsivos y fáciles de usar,
+          mientras continúo aprendiendo nuevas tecnologías y mejorando mis
+          habilidades con cada proyecto. En este portafolio comparto algunos de
+          los trabajos que he realizado durante mi proceso de aprendizaje y
+          crecimiento como desarrollador.</p>
+        </div>
+         <div class="col-lg-5 text center">
+        <img src="imag/Captura de pantalla 2026-05-26 164657.png"
+          alt="Imagen de juan en una pared roja"
+          class="img-fluid">
+      </div>
+    <section id="herramientas" class="container my-5">
+    <h2 class="text-center">Herramientas</h2>
+    <div class="logos">
+        <div class="logo">
+            <img src="imag/HTML.png"
+            <p>HTML5</p>
+        </div>
+        <div class="logo">
+            <img src="imag/6112cb194e851e40d560b273_icons8-css3-48.png"CSS">
+            <p>CSS3</p>
+        </div>
+    </div>
+</section>
+</section>
     </main>
     <footer></footer>
     <script

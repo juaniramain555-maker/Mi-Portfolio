@@ -4,12 +4,52 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.884);
-}
-.navbar-brand{
-    color: white;
+  background-image: url('imag/fondo-tecnologico-1920x1080.svg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
-.nav-link{
-    color: white;
+.hero{
+max-width: 1180px;
+width: 100%;
+margin: 0 auto;
+padding: 80px 40px;
+min-height:100vh;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+text-align: left;
+position: relative;
+z-index: 10;
 }
+.img-fluid{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+   }
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 100px;
+    transition: .3s;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+    
+  
+   
+
+
