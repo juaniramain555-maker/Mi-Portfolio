@@ -26,30 +26,21 @@ text-align: left;
 position: relative;
 z-index: 10;
 }
-.img-fluid{
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-   }
-.logos{
+
+.contenedor-sobre-mi{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
     gap: 50px;
-    margin-top: 30px;
-}
-.logo{
-    text-align: center;
-}
-.logo img{
-    width: 100px;
-    transition: .3s;
-}
-.logo img:hover{
-    transform: scale(1.1);
 }
 
-    
-  
-   
+.texto{
+    width: 60%;
+}
 
+.formulario-contacto{
+
+    max-width: 650px;
+
+}
 
