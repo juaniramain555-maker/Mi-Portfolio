@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  background-image: url('imag/fondo-tecnologico-1920x1080.svg');
+  background-image:url("imag/ChatGPT\ Image\ 22\ jul\ 2026\,\ 03_11_44hgfhfgd\ p.m..png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -36,6 +36,15 @@ z-index: 10;
     align-items: flex-start;
     gap: 50px;
 }
+.img-fluid{
+    border-radius: 20%;
+    box-shadow: 0 0 30px rgba(0,0,0,.4);
+    transition: .3s;
+}
+.img-fluid:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 40px rgba(0,0,0,.6);
+}
 .espacio{
     height: 130px;
 }
@@ -46,13 +55,28 @@ z-index: 10;
 .texto{
     width: 60%;
 }
+.btn{
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+.btn{
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
 .card{
-    transition: 0.3s ease;
+    transition: tranform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover{
     transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0,0,0,.4);
+    box-shadow: 0 15px 30px rgba(0,0,0,.35);
 }
 
 .seccion{
