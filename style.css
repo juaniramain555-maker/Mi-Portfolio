@@ -11,6 +11,9 @@ body{
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .hero{
 max-width: 1180px;
@@ -33,14 +36,32 @@ z-index: 10;
     align-items: flex-start;
     gap: 50px;
 }
-
+.espacio{
+    height: 130px;
+}
+.seccion{
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
 .texto{
     width: 60%;
 }
+.card{
+    transition: 0.3s ease;
+}
 
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.4);
+}
+
+.seccion{
+    padding-top: 400px;
+}
 .formulario-contacto{
 
     max-width: 650px;
 
 }
+
 
